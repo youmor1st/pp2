@@ -1,5 +1,6 @@
 import functools
 
+
 n = int(input())
 a = input().split()
 

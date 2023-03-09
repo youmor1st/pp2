@@ -1,7 +1,5 @@
-s = str(input("File name: "))
-file = open(s, "w")
+waw=str(input())
+qaq=str(input())
+with open(waw, "r") as s, open(qaq, "w") as d:
 
-a = input().split()
-
-for i in a:
-    file.write(i + ' ')
+    d.write(s.read())
